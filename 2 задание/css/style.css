@@ -1,0 +1,229 @@
+
+/* Кроссбраузерные шрифты */
+@font-face {
+    font-family: 'PT Sans';
+    src: local('PT Sans'), local('PTSans-Regular'), url('fonts/ptsans.woff2') format('woff2'), 
+	url('fonts/ptsans.woff') format('woff'), url('fonts/ptsans.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PT Sans';
+    src: local('PT Sans Italic'), local('PTSans-Italic'), url('fonts/ptsansitalic.woff2') format('woff2'), 
+	url('fonts/ptsansitalic.woff') format('woff'), url('fonts/ptsansitalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'PT Sans';
+    src: local('PT Sans Bold'), local('PTSans-Bold'), url('fonts/ptsansbold.woff2') format('woff2'), 
+	url('fonts/ptsansbold.woff') format('woff'), url('fonts/ptsansbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PT Sans';
+    src: local('PT Sans Bold Italic'), local('PTSans-BoldItalic'), url('fonts/ptsansbolditalic.woff2') 
+	format('woff2'), url('fonts/ptsansbolditalic.woff') format('woff'), url('fonts/ptsansbolditalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: local('Open Sans Cond Light'), local('OpenSans-CondensedLight'), url('fonts/opensanscondlight.woff2') 
+	format('woff2'), url('fonts/opensanscondlight.woff') format('woff'), url('fonts/opensanscondlight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: local('Open Sans Cond Light Italic'), local('OpenSans-CondensedLightItalic'), url('fonts/opensanscondlightitalic.woff2') 
+	format('woff2'), url('fonts/opensanscondlightitalic.woff') format('woff'), url('fonts/opensanscondlightitalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: local('Open Sans Condensed Bold'), local('OpenSans-CondensedBold'), url('fonts/opensanscondensedbold.woff2') 
+	format('woff2'), url('fonts/opensanscondensedbold.woff') format('woff'), url('fonts/opensanscondensedbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/*Общие стили*/
+
+html, body {
+	margin:0;
+	padding: 0;
+}
+body {
+	width: 1400px;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+	line-height: 22px;
+}
+
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}	
+
+/*Стили для header*/
+	
+.mai11n-header {
+	width: 100%;
+	margin: 0 auto;
+	background: #dcdcdc;
+}
+
+.container {
+	width: 1000px;
+	margin: 0 200px;
+}
+
+.logo {
+	float: left;
+	width: 350px;
+	margin-top: 40px;
+	margin-right: 100px;
+	margin-bottom: 65px;
+	}
+
+.logo hgroup {
+	position: absolute;
+	top: 30px;
+	left: 310px;
+	color: #777;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	margin-top: -10px;
+}
+
+.contacts {
+	float: right;
+	width: 448px;
+	margin-top: 30px;
+	font-size: 2em;
+	line-height: 32px;
+	color: #777;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/*Главное меню*/
+
+.main-menu {
+	height: 79px;
+	background: #777;
+	margin: 0 auto;
+	}
+
+.main-menu .container ul{
+	width: 980px;
+	list-style: none;
+	margin: 0;
+	}
+
+.main-menu .container ul li {
+	display: inline-block;
+	}
+
+
+.main-menu ul li a {
+	display: block;
+	margin: 25px 0 15px 0;
+	padding-right: 16px;
+	padding-left: 16px;
+	height: 28px;
+	border-right: 2px solid #FFF;
+	border-size: 27px;
+	font: 'PTSans', regular;
+	font-size: 2em;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.main-menu ul li a:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+/*Стили для основной части контента*/
+
+.content {
+	width: 1000px;
+	margin: 30px auto 195px auto;
+}
+
+aside {
+	width: 350px;
+	background: #777;
+}
+
+.news {
+	width: 270px;
+	padding-top: 23px;
+	padding-left: 35px;
+	padding-bottom: 100px;
+	color: #FFF;
+	}
+	
+.news a {
+	color: #FFF;
+	padding-left: 160px;
+}
+
+.main-content {
+	float: right;
+	width: 600px;
+}
+
+/*Стили для footer*/
+
+.main-footer {
+	position: relative;
+	width: 100%;
+	height: 220px;
+	background: #777;
+	color: #FFF;
+}
+
+p.requisits {
+	float: left;
+	width: 200px;
+	margin-top: 50px;
+}
+
+ul.footer-menu {
+	float: left;
+	width: 135px;
+	margin-top: 50px;
+	margin-left: 140px;
+	}	
+	
+ul.footer-menu  li{
+	list-style: none;
+}
+
+.footer-menu li a {
+	color: #FFF;
+	text-decoration: none;
+	border-bottom: 2px solid #bababa;
+}
+
+.design {
+	float: right;
+	width: 225px;
+	margin-top: 50px;
+} 
+
+.design p {
+	position: absolute;
+	top: 30px;
+	right: 200px;
+}
