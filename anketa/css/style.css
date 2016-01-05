@@ -1,0 +1,291 @@
+@font-face {
+    font-family: 'gnutypewriter';
+    src: url('gtw.eot');
+    src: url('gtw.eot?#iefix') format('embedded-opentype'),
+         url('gtw.woff') format('woff'),
+         url('gtw.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 1300px;
+	color: #54504f;
+    font-family: 'PT Sans', sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+    background-color: #544e4e;
+}
+
+.container {
+	width: 1120px;
+	min-height: 20px;
+	margin:0 auto;
+	padding: 5px;
+	background: url('../img/pattern.jpg') repeat;
+	background-position: center top;
+	}
+	
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+	}	
+
+/*header*/
+	
+.main-header {
+  padding: 0;
+}
+
+.company-name {
+	float: left;
+	margin-top: 25px;
+	margin-left: 50px;
+}
+
+.stamp {
+	float: right;
+	margin-top: 17px;
+	margin-right: 52px;
+}
+
+/*content*/
+
+.logo {
+		width: 220px;
+		margin: 0 auto;
+		margin-bottom: 60px;
+	}
+/*Персональная информация*/
+
+.personal-data, p.data {
+		width: 780px;
+		margin: 0 auto;
+		font-size: 18px;
+		color: #2f1b15;
+}
+
+.personal-data span, p.data span {
+	font-family: "Courier New", serif;
+	font-weight: normal;
+	font-size: 25px;
+	}
+	
+.name img {
+	position: relative;
+	top: 7px;
+	right: -20px;
+}
+
+span.personal-data-item-1 {
+	display: block;
+	position: relative;
+	top: -40px;
+	right: -160px;
+	}
+
+.year img {
+	position: relative;
+	top: 7px;
+	right: -20px;
+}
+
+span.personal-data-item-2 {
+	display: block;
+	position: relative;
+	top: -40px;
+	right: -160px;
+	}
+
+.location img {
+	position: relative;
+	top: 7px;
+	right: -20px;
+}	
+
+span.personal-data-item-3 {
+	display: block;
+	position: relative;
+	top: -40px;
+	right: -200px;
+	}
+
+.skype img {
+	position: relative;
+	top: 7px;
+	right: -10px;
+}
+
+span.personal-data-item-4 {
+	display: block;
+	position: relative;
+	top: -40px;
+	right: -90px;
+	}
+	
+.email img {
+	position: relative;
+	top: 7px;
+	right: -10px;
+}
+
+span.personal-data-item-5 {
+	display: block;
+	position: relative;
+	top: -40px;
+	right: -90px;
+	}
+
+
+/*Умения и навыки*/
+
+.skills {
+		width: 780px;
+		margin: 0 auto 50px auto;;
+		font-size: 18px;
+		color: #2f1b15;
+		min-height: 50px;
+		
+}
+
+.education {
+	margin-bottom: 50px;
+}
+
+.education img {
+	position: relative;
+	top: 10px;
+}
+
+a:link {
+	color: #3c6498;
+}
+
+img#yes {
+	margin-left: 20px;
+}
+
+p.title {
+	margin-bottom: 20px;
+}
+
+p.description {
+	font-size: 12px;
+	padding-left: 12px;
+	text-indent: -12px;
+	}
+
+.skills-index {
+	width: 780px;
+	margin: 20px auto 80px auto;
+}
+
+.skills-index-left ul, .skills-index-central ul, .skills-index-right ul  {
+	list-style: none;
+	margin:25px 0 80px 25px;
+	padding: 0;
+	list-style-position: outside;
+	}
+
+ul li  {
+	background: url(../img/check-sprite.png) no-repeat 0px 11px;
+	padding-left: 25px;
+	}
+	
+ul li.skilled  {
+	background: url(../img/check-sprite.png) no-repeat 0px -23px;
+	padding-left: 25px;
+	}
+
+.skills-index-central ul li:last-child {
+	background: url(../img/check.png) no-repeat 0 10px;
+}
+
+.skills-index-left ul li, .skills-index-central ul li, .skills-index-right ul li {
+		line-height:2em;
+	} 
+
+.skills-index-left {
+	float: left;
+	width: 33.3%;
+	}
+
+.skills-index-central {
+	float: left;
+	width: 33.3%;
+	word-break: break-all;
+}
+
+.skills-index-right {
+	float: right;
+	width: 33.3%;
+}
+
+p.skills-range {
+	clear: both;
+	margin-top: 80px;
+	}
+
+.skills-range-pointer {
+	position: relative;
+	right: -365px;
+}
+
+
+.skills-range-scale {
+	position: relative;
+
+}
+	
+.explain {
+	display: block;
+	width: 180px;
+	position: relative;
+	font-size: 12px;
+}
+
+
+.item1 {
+	top: 10px;
+	right: 0;
+}
+
+.item2 {
+	top: -5px;
+	right: -150px;
+}
+
+.item3 {
+	top: -20px;
+	right: -380px;
+	
+}
+
+
+.item4 {
+	top: -50px;
+	right: -620px;
+}
+
+/*footer*/
+p.data {
+	margin-bottom: 75px;
+}
+.data img {
+	position: relative;
+	top: 2px;
+}
+
+.data span {
+	display: block;
+	position: relative;
+	top: -40px;
+	right: -170px;
+}
